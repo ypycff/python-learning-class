@@ -1,0 +1,580 @@
+<History xmlns="http://www.acme.com">
+  <Calls item="1">
+    <Call item="225">
+      <SerialNumber item="1">c37ddffe-8359-4b69-ae1a-25d1d3ff083c</SerialNumber>
+      <BoxSerialNumber item="1">a88130d1-c203-45d0-af2f-b4fc2a19812a</BoxSerialNumber>
+      <Tag item="1">c23c7e4e-2899-4b4e-abee-a3a4abf84a1a</Tag>
+      <SIPVariant item="1">Standards-based</SIPVariant>
+      <State item="1">Connection Failed</State>
+      <StartTime item="1">2020-01-29 00:15:53.638328</StartTime>
+      <InitialCall item="1">True</InitialCall>
+      <Licensed item="1">True</Licensed>
+      <LicensedAsTraversal item="1">True</LicensedAsTraversal>
+      <SourceAlias item="1">sip:1000@apacvidcon.ea.com</SourceAlias>
+      <DestinationAlias item="1">sip:45700048222198885@apacvidcon.ea.com</DestinationAlias>
+      <ToLocalB2BUA item="1">True</ToLocalB2BUA>
+      <Audio item="1">False</Audio>
+      <License item="1">
+        <Traversal item="1">2</Traversal>
+        <NonTraversal item="1">0</NonTraversal>
+        <DemotedTraversal item="1">0</DemotedTraversal>
+        <CollaborationEdge item="1">0</CollaborationEdge>
+        <Cloud item="1">0</Cloud>
+        <MicrosoftContent item="1">0</MicrosoftContent>
+        <MicrosoftIMP item="1">0</MicrosoftIMP>
+      </License>
+      <Duration item="1">12</Duration>
+      <Legs item="1">
+        <Leg item="1">
+          <Protocol item="1">SIP</Protocol>
+          <SIP item="1">
+            <Address item="1">185.70.184.63:59718</Address>
+            <Transport item="1">TLS</Transport>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">Url</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">sip:1000@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </SIP>
+          <Targets item="1">
+            <Target item="1">
+              <Type item="1">Url</Type>
+              <Origin item="1">Unknown</Origin>
+              <Value item="1">sip:45700048222198885@apacvidcon.ea.com</Value>
+            </Target>
+          </Targets>
+          <BandwidthNode item="1">DefaultZone</BandwidthNode>
+          <Cause item="1">404</Cause>
+          <Reason item="1">Not Found</Reason>
+        </Leg>
+        <Leg item="2">
+          <Protocol item="1">SIP</Protocol>
+          <SIP item="1">
+            <Address item="1">10.106.191.238:25629</Address>
+            <Transport item="1">TLS</Transport>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">Url</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">sip:45700048222198885@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </SIP>
+          <BandwidthNode item="1">SIN-EXPC</BandwidthNode>
+        </Leg>
+        <Leg item="3">
+          <Protocol item="1">SIP</Protocol>
+          <SIP item="1">
+            <Address item="1">159.153.186.205:5071</Address>
+            <Transport item="1">TLS</Transport>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">Url</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">sip:45700048222198885@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </SIP>
+          <BandwidthNode item="1">SIN-EXPC</BandwidthNode>
+          <EncryptionType item="1">None</EncryptionType>
+        </Leg>
+        <Leg item="4">
+          <Protocol item="1">H323</Protocol>
+          <H323 item="1">
+            <CallSignalAddress item="1">10.106.191.237:1719</CallSignalAddress>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">H323Id</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">45700048222198885@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </H323>
+          <BandwidthNode item="1">SIN-EXPC</BandwidthNode>
+          <Reason item="1">Not registered</Reason>
+          <Cause item="1">Destination not found</Cause>
+        </Leg>
+      </Legs>
+      <Sessions item="1">
+        <Session item="1">
+          <Status item="1">Replaced</Status>
+          <MediaRouted item="1">True</MediaRouted>
+          <CallRouted item="1">True</CallRouted>
+          <Participants item="1">
+            <Leg item="1">1</Leg>
+            <Leg item="2">2</Leg>
+            <Incoming item="1">
+              <Leg item="1">1</Leg>
+            </Incoming>
+            <Outgoing item="1">
+              <Leg item="1">2</Leg>
+            </Outgoing>
+          </Participants>
+          <Bandwidth item="1">
+            <Requested item="1">0</Requested>
+            <Allocated item="1">0</Allocated>
+          </Bandwidth>
+        </Session>
+        <Session item="2">
+          <Status item="1">Failed</Status>
+          <MediaRouted item="1">False</MediaRouted>
+          <CallRouted item="1">True</CallRouted>
+          <Participants item="1">
+            <Leg item="1">1</Leg>
+            <Leg item="2">3</Leg>
+            <Incoming item="1">
+              <Leg item="1">1</Leg>
+            </Incoming>
+            <Outgoing item="1">
+              <Leg item="1">3</Leg>
+            </Outgoing>
+          </Participants>
+          <Bandwidth item="1">
+            <Requested item="1">384</Requested>
+            <Allocated item="1">384</Allocated>
+          </Bandwidth>
+          <Route item="1">
+            <Hop item="1">
+              <Zone item="1">DefaultZone</Zone>
+            </Hop>
+            <Hop item="2">
+              <Link item="1">TraversalSZtoDefaultZ</Link>
+            </Hop>
+            <Hop item="3">
+              <Zone item="1">TraversalSubZone</Zone>
+            </Hop>
+            <Hop item="4">
+              <Link item="1">Zone001ToTraversalSZ</Link>
+            </Hop>
+            <Hop item="5">
+              <Zone item="1">SIN-EXPC</Zone>
+            </Hop>
+          </Route>
+        </Session>
+        <Session item="3">
+          <Status item="1">Failed</Status>
+          <MediaRouted item="1">True</MediaRouted>
+          <CallRouted item="1">True</CallRouted>
+          <Participants item="1">
+            <Leg item="1">1</Leg>
+            <Leg item="2">4</Leg>
+            <Incoming item="1">
+              <Leg item="1">1</Leg>
+            </Incoming>
+            <Outgoing item="1">
+              <Leg item="1">4</Leg>
+            </Outgoing>
+          </Participants>
+          <Bandwidth item="1">
+            <Requested item="1">384</Requested>
+            <Allocated item="1">384</Allocated>
+          </Bandwidth>
+          <Route item="1">
+            <Hop item="1">
+              <Zone item="1">DefaultZone</Zone>
+            </Hop>
+            <Hop item="2">
+              <Link item="1">TraversalSZtoDefaultZ</Link>
+            </Hop>
+            <Hop item="3">
+              <Zone item="1">TraversalSubZone</Zone>
+            </Hop>
+            <Hop item="4">
+              <Link item="1">Zone001ToTraversalSZ</Link>
+            </Hop>
+            <Hop item="5">
+              <Zone item="1">SIN-EXPC</Zone>
+            </Hop>
+          </Route>
+        </Session>
+      </Sessions>
+      <EndTime item="1">2020-01-29 00:16:05.240971</EndTime>
+    </Call>
+    <Call item="325">
+      <SerialNumber item="1">c37ddffe-8359-4b69-ae1a-25d1d3ff083c</SerialNumber>
+      <BoxSerialNumber item="1">a88130d1-c203-45d0-af2f-b4fc2a19812a</BoxSerialNumber>
+      <Tag item="1">c23c7e4e-2899-4b4e-abee-a3a4abf84a1a</Tag>
+      <SIPVariant item="1">Standards-based</SIPVariant>
+      <State item="1">Connection Failed</State>
+      <StartTime item="1">2021-01-29 00:15:53.638328</StartTime>
+      <InitialCall item="1">True</InitialCall>
+      <Licensed item="1">True</Licensed>
+      <LicensedAsTraversal item="1">True</LicensedAsTraversal>
+      <SourceAlias item="1">sip:1000@apacvidcon.ea.com</SourceAlias>
+      <DestinationAlias item="1">sip:45700048222198885@apacvidcon.ea.com</DestinationAlias>
+      <ToLocalB2BUA item="1">True</ToLocalB2BUA>
+      <Audio item="1">False</Audio>
+      <License item="1">
+        <Traversal item="1">2</Traversal>
+        <NonTraversal item="1">0</NonTraversal>
+        <DemotedTraversal item="1">0</DemotedTraversal>
+        <CollaborationEdge item="1">0</CollaborationEdge>
+        <Cloud item="1">0</Cloud>
+        <MicrosoftContent item="1">0</MicrosoftContent>
+        <MicrosoftIMP item="1">0</MicrosoftIMP>
+      </License>
+      <Duration item="1">12</Duration>
+      <Legs item="1">
+        <Leg item="1">
+          <Protocol item="1">SIP</Protocol>
+          <SIP item="1">
+            <Address item="1">185.70.184.63:59718</Address>
+            <Transport item="1">TLS</Transport>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">Url</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">sip:1000@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </SIP>
+          <Targets item="1">
+            <Target item="1">
+              <Type item="1">Url</Type>
+              <Origin item="1">Unknown</Origin>
+              <Value item="1">sip:45700048222198885@apacvidcon.ea.com</Value>
+            </Target>
+          </Targets>
+          <BandwidthNode item="1">DefaultZone</BandwidthNode>
+          <Cause item="1">404</Cause>
+          <Reason item="1">Not Found</Reason>
+        </Leg>
+        <Leg item="2">
+          <Protocol item="1">SIP</Protocol>
+          <SIP item="1">
+            <Address item="1">10.106.191.238:25629</Address>
+            <Transport item="1">TLS</Transport>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">Url</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">sip:45700048222198885@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </SIP>
+          <BandwidthNode item="1">SIN-EXPC</BandwidthNode>
+        </Leg>
+        <Leg item="3">
+          <Protocol item="1">SIP</Protocol>
+          <SIP item="1">
+            <Address item="1">159.153.186.205:5071</Address>
+            <Transport item="1">TLS</Transport>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">Url</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">sip:45700048222198885@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </SIP>
+          <BandwidthNode item="1">SIN-EXPC</BandwidthNode>
+          <EncryptionType item="1">None</EncryptionType>
+        </Leg>
+        <Leg item="4">
+          <Protocol item="1">H323</Protocol>
+          <H323 item="1">
+            <CallSignalAddress item="1">10.106.191.237:1719</CallSignalAddress>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">H323Id</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">45700048222198885@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </H323>
+          <BandwidthNode item="1">SIN-EXPC</BandwidthNode>
+          <Reason item="1">Not registered</Reason>
+          <Cause item="1">Destination not found</Cause>
+        </Leg>
+      </Legs>
+      <Sessions item="1">
+        <Session item="1">
+          <Status item="1">Replaced</Status>
+          <MediaRouted item="1">True</MediaRouted>
+          <CallRouted item="1">True</CallRouted>
+          <Participants item="1">
+            <Leg item="1">1</Leg>
+            <Leg item="2">2</Leg>
+            <Incoming item="1">
+              <Leg item="1">1</Leg>
+            </Incoming>
+            <Outgoing item="1">
+              <Leg item="1">2</Leg>
+            </Outgoing>
+          </Participants>
+          <Bandwidth item="1">
+            <Requested item="1">0</Requested>
+            <Allocated item="1">0</Allocated>
+          </Bandwidth>
+        </Session>
+        <Session item="2">
+          <Status item="1">Failed</Status>
+          <MediaRouted item="1">False</MediaRouted>
+          <CallRouted item="1">True</CallRouted>
+          <Participants item="1">
+            <Leg item="1">1</Leg>
+            <Leg item="2">3</Leg>
+            <Incoming item="1">
+              <Leg item="1">1</Leg>
+            </Incoming>
+            <Outgoing item="1">
+              <Leg item="1">3</Leg>
+            </Outgoing>
+          </Participants>
+          <Bandwidth item="1">
+            <Requested item="1">384</Requested>
+            <Allocated item="1">384</Allocated>
+          </Bandwidth>
+          <Route item="1">
+            <Hop item="1">
+              <Zone item="1">DefaultZone</Zone>
+            </Hop>
+            <Hop item="2">
+              <Link item="1">TraversalSZtoDefaultZ</Link>
+            </Hop>
+            <Hop item="3">
+              <Zone item="1">TraversalSubZone</Zone>
+            </Hop>
+            <Hop item="4">
+              <Link item="1">Zone001ToTraversalSZ</Link>
+            </Hop>
+            <Hop item="5">
+              <Zone item="1">SIN-EXPC</Zone>
+            </Hop>
+          </Route>
+        </Session>
+        <Session item="3">
+          <Status item="1">Failed</Status>
+          <MediaRouted item="1">True</MediaRouted>
+          <CallRouted item="1">True</CallRouted>
+          <Participants item="1">
+            <Leg item="1">1</Leg>
+            <Leg item="2">4</Leg>
+            <Incoming item="1">
+              <Leg item="1">1</Leg>
+            </Incoming>
+            <Outgoing item="1">
+              <Leg item="1">4</Leg>
+            </Outgoing>
+          </Participants>
+          <Bandwidth item="1">
+            <Requested item="1">384</Requested>
+            <Allocated item="1">384</Allocated>
+          </Bandwidth>
+          <Route item="1">
+            <Hop item="1">
+              <Zone item="1">DefaultZone</Zone>
+            </Hop>
+            <Hop item="2">
+              <Link item="1">TraversalSZtoDefaultZ</Link>
+            </Hop>
+            <Hop item="3">
+              <Zone item="1">TraversalSubZone</Zone>
+            </Hop>
+            <Hop item="4">
+              <Link item="1">Zone001ToTraversalSZ</Link>
+            </Hop>
+            <Hop item="5">
+              <Zone item="1">SIN-EXPC</Zone>
+            </Hop>
+          </Route>
+        </Session>
+      </Sessions>
+      <EndTime item="1">2020-01-29 00:16:05.240971</EndTime>
+    </Call>
+    <Call item="425">
+      <SerialNumber item="1">c37ddffe-8359-4b69-ae1a-25d1d3ff083c</SerialNumber>
+      <BoxSerialNumber item="1">a88130d1-c203-45d0-af2f-b4fc2a19812a</BoxSerialNumber>
+      <Tag item="1">c23c7e4e-2899-4b4e-abee-a3a4abf84a1a</Tag>
+      <SIPVariant item="1">Standards-based</SIPVariant>
+      <State item="1">Connection Failed</State>
+      <StartTime item="1">2022-01-29 00:15:53.638328</StartTime>
+      <InitialCall item="1">True</InitialCall>
+      <Licensed item="1">True</Licensed>
+      <LicensedAsTraversal item="1">True</LicensedAsTraversal>
+      <SourceAlias item="1">sip:1000@apacvidcon.ea.com</SourceAlias>
+      <DestinationAlias item="1">sip:45700048222198885@apacvidcon.ea.com</DestinationAlias>
+      <ToLocalB2BUA item="1">True</ToLocalB2BUA>
+      <Audio item="1">False</Audio>
+      <License item="1">
+        <Traversal item="1">2</Traversal>
+        <NonTraversal item="1">0</NonTraversal>
+        <DemotedTraversal item="1">0</DemotedTraversal>
+        <CollaborationEdge item="1">0</CollaborationEdge>
+        <Cloud item="1">0</Cloud>
+        <MicrosoftContent item="1">0</MicrosoftContent>
+        <MicrosoftIMP item="1">0</MicrosoftIMP>
+      </License>
+      <Duration item="1">12</Duration>
+      <Legs item="1">
+        <Leg item="1">
+          <Protocol item="1">SIP</Protocol>
+          <SIP item="1">
+            <Address item="1">185.70.184.63:59718</Address>
+            <Transport item="1">TLS</Transport>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">Url</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">sip:1000@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </SIP>
+          <Targets item="1">
+            <Target item="1">
+              <Type item="1">Url</Type>
+              <Origin item="1">Unknown</Origin>
+              <Value item="1">sip:45700048222198885@apacvidcon.ea.com</Value>
+            </Target>
+          </Targets>
+          <BandwidthNode item="1">DefaultZone</BandwidthNode>
+          <Cause item="1">404</Cause>
+          <Reason item="1">Not Found</Reason>
+        </Leg>
+        <Leg item="2">
+          <Protocol item="1">SIP</Protocol>
+          <SIP item="1">
+            <Address item="1">10.106.191.238:25629</Address>
+            <Transport item="1">TLS</Transport>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">Url</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">sip:45700048222198885@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </SIP>
+          <BandwidthNode item="1">SIN-EXPC</BandwidthNode>
+        </Leg>
+        <Leg item="3">
+          <Protocol item="1">SIP</Protocol>
+          <SIP item="1">
+            <Address item="1">159.153.186.205:5071</Address>
+            <Transport item="1">TLS</Transport>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">Url</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">sip:45700048222198885@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </SIP>
+          <BandwidthNode item="1">SIN-EXPC</BandwidthNode>
+          <EncryptionType item="1">None</EncryptionType>
+        </Leg>
+        <Leg item="4">
+          <Protocol item="1">H323</Protocol>
+          <H323 item="1">
+            <CallSignalAddress item="1">10.106.191.237:1719</CallSignalAddress>
+            <Aliases item="1">
+              <Alias item="1">
+                <Type item="1">H323Id</Type>
+                <Origin item="1">Unknown</Origin>
+                <Value item="1">45700048222198885@apacvidcon.ea.com</Value>
+              </Alias>
+            </Aliases>
+          </H323>
+          <BandwidthNode item="1">SIN-EXPC</BandwidthNode>
+          <Reason item="1">Not registered</Reason>
+          <Cause item="1">Destination not found</Cause>
+        </Leg>
+      </Legs>
+      <Sessions item="1">
+        <Session item="1">
+          <Status item="1">Replaced</Status>
+          <MediaRouted item="1">True</MediaRouted>
+          <CallRouted item="1">True</CallRouted>
+          <Participants item="1">
+            <Leg item="1">1</Leg>
+            <Leg item="2">2</Leg>
+            <Incoming item="1">
+              <Leg item="1">1</Leg>
+            </Incoming>
+            <Outgoing item="1">
+              <Leg item="1">2</Leg>
+            </Outgoing>
+          </Participants>
+          <Bandwidth item="1">
+            <Requested item="1">0</Requested>
+            <Allocated item="1">0</Allocated>
+          </Bandwidth>
+        </Session>
+        <Session item="2">
+          <Status item="1">Failed</Status>
+          <MediaRouted item="1">False</MediaRouted>
+          <CallRouted item="1">True</CallRouted>
+          <Participants item="1">
+            <Leg item="1">1</Leg>
+            <Leg item="2">3</Leg>
+            <Incoming item="1">
+              <Leg item="1">1</Leg>
+            </Incoming>
+            <Outgoing item="1">
+              <Leg item="1">3</Leg>
+            </Outgoing>
+          </Participants>
+          <Bandwidth item="1">
+            <Requested item="1">384</Requested>
+            <Allocated item="1">384</Allocated>
+          </Bandwidth>
+          <Route item="1">
+            <Hop item="1">
+              <Zone item="1">DefaultZone</Zone>
+            </Hop>
+            <Hop item="2">
+              <Link item="1">TraversalSZtoDefaultZ</Link>
+            </Hop>
+            <Hop item="3">
+              <Zone item="1">TraversalSubZone</Zone>
+            </Hop>
+            <Hop item="4">
+              <Link item="1">Zone001ToTraversalSZ</Link>
+            </Hop>
+            <Hop item="5">
+              <Zone item="1">SIN-EXPC</Zone>
+            </Hop>
+          </Route>
+        </Session>
+        <Session item="3">
+          <Status item="1">Failed</Status>
+          <MediaRouted item="1">True</MediaRouted>
+          <CallRouted item="1">True</CallRouted>
+          <Participants item="1">
+            <Leg item="1">1</Leg>
+            <Leg item="2">4</Leg>
+            <Incoming item="1">
+              <Leg item="1">1</Leg>
+            </Incoming>
+            <Outgoing item="1">
+              <Leg item="1">4</Leg>
+            </Outgoing>
+          </Participants>
+          <Bandwidth item="1">
+            <Requested item="1">384</Requested>
+            <Allocated item="1">384</Allocated>
+          </Bandwidth>
+          <Route item="1">
+            <Hop item="1">
+              <Zone item="1">DefaultZone</Zone>
+            </Hop>
+            <Hop item="2">
+              <Link item="1">TraversalSZtoDefaultZ</Link>
+            </Hop>
+            <Hop item="3">
+              <Zone item="1">TraversalSubZone</Zone>
+            </Hop>
+            <Hop item="4">
+              <Link item="1">Zone001ToTraversalSZ</Link>
+            </Hop>
+            <Hop item="5">
+              <Zone item="1">SIN-EXPC</Zone>
+            </Hop>
+          </Route>
+        </Session>
+      </Sessions>
+      <EndTime item="1">2020-01-29 00:16:05.240971</EndTime>
+    </Call>
+  </Calls>
+</History>
